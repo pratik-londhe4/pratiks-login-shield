@@ -1,0 +1,10 @@
+{
+  "screens": [
+    {
+      "name": "Login Shield Settings Screen",
+      "url": "/wp-admin/options-general.php?page=pratiks-login-shield",
+      "scope": ".pratiks-login-shield-wrap"
+    }
+  ],
+  "skip": {}
+}
