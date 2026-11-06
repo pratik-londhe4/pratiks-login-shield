@@ -522,7 +522,7 @@ class SettingsPage implements Service {
 							<?php wp_nonce_field( 'pratiks_login_shield_regenerate_key_nonce' ); ?>
 							<input type="hidden" name="pratiks_login_shield_action" value="regenerate_rescue_key">
 							<p>
-								<button type="submit" class="button button-link-delete" onclick="return confirm('<?php echo esc_js( __( 'Generating a new rescue key will invalidate your previous emergency URL. Continue?', 'pratiks-login-shield' ) ); ?>');">
+								<button type="submit" class="button button-secondary" onclick="return confirm('<?php echo esc_js( __( 'Generating a new rescue key will invalidate your previous emergency URL. Continue?', 'pratiks-login-shield' ) ); ?>');">
 									<?php esc_html_e( 'Regenerate Rescue Key', 'pratiks-login-shield' ); ?>
 								</button>
 							</p>
