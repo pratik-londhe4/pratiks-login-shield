@@ -3,7 +3,7 @@
  * Plugin Name:       Pratiks Login Shield
  * Plugin URI:        https://wordpress.org/plugins/pratiks-login-shield/
  * Description:       Protect WordPress from brute force attacks with custom login URLs, rate limiting lockouts, and emergency anti-lockout recovery.
- * Version:           0.1.0
+ * Version:           0.1.1
  * Requires at least: 6.6
  * Requires PHP:      7.4
  * Author:            Pratik Londhe
@@ -19,7 +19,7 @@ namespace PratikLondhe\PratiksLoginShield;
 
 defined( 'ABSPATH' ) || exit;
 
-const VERSION     = '0.1.0';
+const VERSION     = '0.1.1';
 const PLUGIN_FILE = __FILE__;
 
 // PSR-4: PratikLondhe\PratiksLoginShield\Foo\Bar lives in src/Foo/Bar.php.

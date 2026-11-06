@@ -4,7 +4,7 @@ Tags: login, hide login, custom login url, brute force, security
 Requires at least: 6.6
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 0.1.0
+Stable tag: 0.1.1
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -49,6 +49,9 @@ When an IP address exceeds the maximum number of failed login attempts, authenti
 3. Temporary IP lockout notice after exceeding maximum attempts.
 
 == Changelog ==
+
+= 0.1.1 =
+* Fix: improve color contrast of emergency key button
 
 = 0.1.0 =
 * Initial release: Custom login URL routing, brute force rate limiting, emergency rescue key, XML-RPC blocker, WP-CLI commands, and Abilities API support.
